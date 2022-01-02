@@ -1,8 +1,15 @@
 
+import "./List.css";
+
 function List (props) {
   return <div>
   {props.itemList.map(itemObj =>{
-   return <p>{itemObj.item}</p>
+   return (
+     <div className="item">
+     <p>{itemObj.item}</p>
+     <button>❌</button>
+     </div>
+   )
   })}
   </div>
 

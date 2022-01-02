@@ -1,0 +1,15 @@
+.item{
+  display:flex;
+  margin:10px;
+  width:180px;
+  height:20px;
+  justify-content:space-between;
+  border:1px solid #ede7fe;
+  border-radius:2px;
+  align-items:center;
+  padding:10px;
+  background-color:rgb(77,14,77);
+}
+p{
+  margin:0;
+}
