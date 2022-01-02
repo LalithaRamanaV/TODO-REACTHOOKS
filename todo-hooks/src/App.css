@@ -20,11 +20,12 @@
   height:20px;
   padding:6px;
   width:160px;
+  
 }
 .Input-wrapper button{
   width:20px;
   height:20px;
-  border-radius:50%;
+  border-radius:25%;
   padding:0;
 }
 
